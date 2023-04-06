@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Year Countdown</title>
+    <link
+      rel="icon"
+      type="png/image"
+      href="https://www.google.com/s2/u/0/favicons?domain=teamup.com/"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="time">
+      <div class="circle" style="--clr: #ffffff">
+        <div class="dots day_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="dd"></circle>
+        </svg>
+        <div id="days">00 <br /><span> Days</span></div>
+      </div>
+
+      <div class="circle" style="--clr: #ff2972">
+        <div class="dots hr_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="hh"></circle>
+        </svg>
+        <div id="hours">00</div>
+      </div>
+
+      <div class="circle" style="--clr: #fee800">
+        <div class="dots min_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="mm"></circle>
+        </svg>
+        <div id="minutes">00</div>
+      </div>
+
+      <div class="circle" style="--clr: #04fc43">
+        <div class="dots sec_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="ss"></circle>
+        </svg>
+        <div id="seconds">00</div>
+      </div>
+    </div>
+
+    <h2 class="newYear">2023 <br /><span>Happy New Year </span></h2>
+
+    <!-- <div class="year">2024</div>
+    <div class="countdown">
+      <div id="day">0</div>
+      <div id="hour">0</div>
+      <div id="minutes">0</div>
+      <div id="seconds">0</div>
+    </div> -->
+    <!-- scrippt -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
